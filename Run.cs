@@ -10,6 +10,7 @@ namespace DIO
         {
             var Exe = new List<IRun>{
 		    new ProgramaValidacaoNotas (),
+		    new Mandioca (),
             };
             if (args.Count() == 0)
             {
