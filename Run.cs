@@ -9,6 +9,7 @@ namespace DIO
         static void Main(string[] args)
         {
             var Exe = new List<IRun>{
+		    new ProgramaValidacaoNotas (),
             };
             if (args.Count() == 0)
             {
