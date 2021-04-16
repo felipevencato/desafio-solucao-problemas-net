@@ -11,6 +11,7 @@ namespace DIO
             var Exe = new List<IRun>{
 		    new ProgramaValidacaoNotas (),
 		    new Mandioca (),
+		    new ComprasSupermercado (),
             };
             if (args.Count() == 0)
             {
