@@ -12,6 +12,7 @@ namespace DIO
 		    new ProgramaValidacaoNotas (),
 		    new Mandioca (),
 		    new ComprasSupermercado (),
+		    new ValidadorSenhasRequisitos (),
             };
             if (args.Count() == 0)
             {
